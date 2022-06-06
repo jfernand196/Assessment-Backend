@@ -1,0 +1,22 @@
+{
+  "name": "Assessment-Backend - Juan Buitrago",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "Assessment Backend - Make It Real - Juan Buitrago",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Buitrago",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16"
+  }
+}
